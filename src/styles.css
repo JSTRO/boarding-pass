@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+	@apply bg-white rounded overflow-hidden shadow-lg max-w-4xl relative font-mono mx-4 px-8 md:pl-16 pt-3;
+}
+
+.bold-text {
+	@apply font-bold text-2xl;
+}	
